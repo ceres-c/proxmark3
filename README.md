@@ -121,7 +121,9 @@ https://github.com/iceman1001/proxmark3/blob/master/install.sh
 
 ## Setup and build for ArchLinux
 - Run
-`sudo pacman -Sy base-devel p7zip libusb readline ncurses arm-none-eabi-newlib --needed`
+`sudo pacman -Sy base-devel p7zip libusb readline ncurses arm-none-eabi-newlib arm-none-eabi-gcc --needed`
+
+
 `yaourt -S termcap`
 
 - Clone iceman fork
